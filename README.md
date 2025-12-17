@@ -34,7 +34,8 @@ Scans linked Revit models (HVAC, Plumbing, Medical) and automatically places ele
 
         Duplicate Protection: Prevents placing a new connection if one already exists at that location.
 
-    ⚠️ Note: This script requires configuration to match your company's specific parameter names (e.g., "Apparent Power" vs "Load"). It has been tested on sample data but requires validation on a real-world project to ensure edge cases are handled.
+    ⚠️ Note: This script requires configuration to match your company's specific parameter names (e.g., "Apparent Power" vs "Load").
+    It has been tested on sample data but requires validation on a real-world project to ensure edge cases are handled.
 
 🛠️ Technology Stack
 
