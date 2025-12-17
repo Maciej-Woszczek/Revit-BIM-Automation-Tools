@@ -18,7 +18,7 @@ Automatically places tags on selected electrical categories (e.g., Fixtures, Lig
 
         Transaction safety handling.
 
-2. Auto-Connect Linked Devices (BETA) 🆕
+2. Auto-Create electrical fixtures for devices (BETA) 
 
 Scans linked Revit models (HVAC, Plumbing, Medical) and automatically places electrical connection points based on the equipment's power data.
 
