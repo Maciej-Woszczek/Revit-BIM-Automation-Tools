@@ -75,6 +75,7 @@ Generates a comprehensive lighting fixture report grouped by Room, capable of re
 📷 Demo
 
 TotalLengthCalculator:
+
 ![image](https://github.com/user-attachments/assets/9a8b0a6b-f69a-4ab2-a5ba-5d8cf27543f8)
 
 (Demos for other tools to be added at a later date)
