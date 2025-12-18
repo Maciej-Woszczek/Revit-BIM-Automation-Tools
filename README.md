@@ -4,7 +4,7 @@ A collection of high-efficiency tools for Electrical Engineers, featuring rapid 
 
 🚀 Features
 
-1. Total Length Calculator (C# Plugin)
+1. Total Length Calculator (C# Plugin) [CSharp_Plugins/TotalLengthCalculator.slnx]
 
 A compiled Revit command written in C# (.NET 8) for rapid quantity checking.
 
