@@ -61,20 +61,23 @@ Generates a comprehensive lighting fixture report grouped by Room, capable of re
 
 🛠️ Technology Stack
 
-🐍 Python / Scripting
-*   Language: Python 3 (IronPython)
-*   Tool: pyRevit
-*   Target: Revit 2024 Automation
-
-⚙️ C# / .NET Plugin Development
-*   Language: C#
-*   Framework: .NET 8.0 (Targeting Revit 2026)
-*   IDE: Visual Studio 2022
-*   Competencies: Revit API (IExternalCommand), Plugin Compilation & Loading, UI Interaction (TaskDialog)
+    🐍 Python / Scripting
+        *   Language: Python 3 (IronPython)
+        *   Tool: pyRevit
+        *   Target: Revit 2024 Automation
+    
+    ⚙️ C# / .NET Plugin Development
+        *   Language: C#
+        *   Framework: .NET 8.0 (Targeting Revit 2026)
+        *   IDE: Visual Studio 2022
+        *   Competencies: Revit API (IExternalCommand), Plugin Compilation & Loading, UI Interaction (TaskDialog)
 
 📷 Demo
 
-(To be added at a later date)
+TotalLengthCalculator:
+![image](https://github.com/user-attachments/assets/9a8b0a6b-f69a-4ab2-a5ba-5d8cf27543f8)
+
+(Demos for other tools to be added at a later date)
 
 👤 Author
 
