@@ -1,10 +1,23 @@
 Electrical Design Automation Tools for Revit ⚡
 
-A collection of Revit C# Addins and python scripts created to automate repetitive tasks for Electrical Engineers. Scripts are using the pyRevit API.
+A collection of high-efficiency tools for Electrical Engineers, featuring rapid Python scripting (pyRevit) and robust C# plugins for Revit 2026.
 
 🚀 Features
 
-1. Auto-Tag Elements
+1. Total Length Calculator (C# Plugin)
+
+A compiled Revit command written in C# (.NET 8) for rapid quantity checking.
+
+    Problem Solved: Verifying the total length of specific cable tray or conduit runs requires creating temporary schedules or manual addition, which is slow and error-prone.
+    Solution: A compiled plugin that instantly sums the length of any selected linear elements and displays the result in Meters, handling all unit conversions automatically.
+
+    Key Features:
+    Instant QTO: One-click calculation of total run lengths.
+    Unit Safety: robust conversion from Revit internal units (Feet) to Metric (Meters).
+    Future-Proof: Built on .NET 8, compatible with Revit 2026.
+    Standalone: Runs natively without requiring pyRevit or Dynamo.
+
+2. Auto-Tag Elements (pyRevit script)
 
 Automatically places tags on selected electrical categories (e.g., Fixtures, Lighting) in the active view.
 
@@ -17,7 +30,7 @@ Automatically places tags on selected electrical categories (e.g., Fixtures, Lig
         Checks element location type to avoid errors.
         Transaction safety handling.
 
-2. Auto-Create electrical fixtures for devices (BETA) 
+3. Auto-Create electrical fixtures for devices (pyRevit script) (BETA) 
 
 Scans linked Revit models (HVAC, Plumbing, Medical) and automatically places electrical connection points based on the equipment's power data.
 
@@ -33,7 +46,7 @@ Scans linked Revit models (HVAC, Plumbing, Medical) and automatically places ele
     ⚠️ Note: This script requires configuration to match your company's specific parameter names (e.g., "Apparent Power" vs "Load").
         It has been tested on sample data but requires validation on a real-world project to ensure edge cases are handled.
 
-3. Export Lighting Fixtures by Linked Room
+4. Export Lighting Fixtures by Linked Room (pyRevit script)
 
 Generates a comprehensive lighting fixture report grouped by Room, capable of resolving rooms inside Linked Models.
 
@@ -48,9 +61,16 @@ Generates a comprehensive lighting fixture report grouped by Room, capable of re
 
 🛠️ Technology Stack
 
-    Language: Python 3 (IronPython via pyRevit)
-    Library: Autodesk Revit API 2024
-    Tool: pyRevit
+🐍 Python / Scripting
+*   Language: Python 3 (IronPython)
+*   Tool: pyRevit
+*   Target: Revit 2024 Automation
+
+⚙️ C# / .NET Plugin Development
+*   Language: C#
+*   Framework: .NET 8.0 (Targeting Revit 2026)
+*   IDE: Visual Studio 2022
+*   Competencies: Revit API (IExternalCommand), Plugin Compilation & Loading, UI Interaction (TaskDialog)
 
 📷 Demo
 
